@@ -3,3 +3,4 @@ ini
 saya
 aku
 kami
+dia

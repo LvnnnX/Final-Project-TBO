@@ -63,3 +63,6 @@ layar
 ingin
 antara
 bulan
+matematika
+zaman
+dulu

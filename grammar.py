@@ -92,6 +92,7 @@
 # AdjP → Adj | Adv AdjP | Adj Adv | Adj Pronoun
 # PP → Prep NP | Prep AdjP | Prep Num
 import general
+susunan_kata = ['S','P','O','Ket','Pel']
 production = {
     "K" : ['S P','O P','S Ket','O Ket','S P Pel','S P Ket','O P Pel','O P Ket','S P O','S P S','O P S','O P O','S P O Pel','O P O Pel','O P S Pel','S P S Pel','S P O Ket','O P O Ket','O P S Ket','S P S Ket'],
     "S" : ['NP'],

@@ -22,3 +22,5 @@ arya
 diah
 citra
 bali
+tokdalang
+buguru
