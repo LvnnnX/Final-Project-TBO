@@ -65,6 +65,31 @@ def gabung_rumus(table:list):
                         temptable2.append(id)
                 table = temptable2
     return table
+
+def print_table(array):
+    susunan = grammar.susunan_kata.copy()
+    table = ['' for x in range(len(array))]
+    # print(array)
+    for i in range(len(array)):
+        table[i] = grammar.check_production([array[i]])[0]
+    table = gabung_rumus(table)
+    # print('ini table',table)
+    for a,b in enumerate(table):
+        for index,(key,value) in enumerate(grammar.main_production.items()):
+            if(b in value):
+                ada = 0
+                for cari in susunan:
+                    if(key == cari):
+                        ada =1
+                        table[a] = key
+                        susunan.remove(key)
+                        if(len(susunan)==0):
+                            susunan=grammar.susunan_kata
+                        break
+                if(ada):
+                    break
+    return table
+    
 def table_filling_process(array):
     susunan = grammar.susunan_kata.copy()
     table = ['' for x in range(len(array))]

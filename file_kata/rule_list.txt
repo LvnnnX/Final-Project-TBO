@@ -1,0 +1,23 @@
+K -> S P
+K -> S P O
+K -> S P Pel
+K -> S P O Pel
+K -> S P Ket
+K -> S P O Ket
+S -> NP
+P -> VP  | AdjP | Adjp VP
+O -> NP
+Pel -> AdjP | PP
+Ket -> PP
+NP -> PropNoun | NP Noun | Pronoun | Noun | Num NP | NP ProNoun | NP PropNoun | NP Adj | NP Verb
+VP -> Verb | Adv VP | AdjP VP
+AdjP -> Adj | Adv AdjP | Adj Adv | Adj Pronoun
+PP -> Prep NP | Prep AdjP | Prep Num
+Adj -> larut | lambat | lama | singkat | perlahan | mendadak | baru | kuno | antik | primitif | lawas | lelet | dekat | jauh | akrab | lebat | rapat | besar | sempit | luas | bangga | bosan | takut | ngeri | kesal | sedih | segan | ragu-ragu | kagum | benci | berani | lembut | gembira | serius | iba | jahat | merdu | lezat | harum | semerbak | manis | asam | tampan | serak | bising | nyaring | tajam | kasar | licin | halus | tebal | pahit | dingin | rapi | basah | lebar | hebat | suka | suntuk
+Adv -> sudah | akan | segera | sedang | jarang | sering | sangat | sekali | selalu | agak | baru
+Noun -> kura-kura | pidato | bapak | seminar | bocah | pintu | rumahku | orang | usianya | guci | ketua | periode | barang | rumah | lapangan | temanku | pohon | mangga | rumah-rumah | jeda | daki | celana | kursi | tv | ular | rongga | mulut | sakura | tembok | kemenangan | kemarin | rumah | petir | hukuman | malam | ayah | kucingnya | keputusan | prestasinya | sifat | keberhasilan | hal | kisah | perjuangan | ibu | suara | masakan | parfum | bunga | nanas | motor | lukisan | pisau | tembok | lantai | kulit | buku | obat | teh | tulisan | baju | layar | ingin | antara | bulan | matematika | zaman | dulu
+Num -> sembilan | banyak | semua
+Prep -> dengan | di | jika | pada | dari | saat | untuk | atas | kepada | terhadap | dalam
+Pronoun -> itu | ini | saya | aku | kami | dia
+PropNoun -> andi | budi | indra | tokdalang | upin | saputra | susi | adi | banu | wahyu | intan | dara | syifa | kadek | indah | abi | putri | wati | manda | dian | arya | diah | citra | bali | tokdalang | buguru
+Verb -> pulang | berjalan | tinggal | berlangsung | dimulai | belajar | membuka | mengetuk | berdebat | berpamitan | pergi | menginjak | adalah | membeli | mengoleksi | dibangun | memberi | melekat | menempel | berada | duduk | dilewati | sayang | melawan | melakukan | berteriak | merasa | ada | mengambil | tersebut | mengajar
